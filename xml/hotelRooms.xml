@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<hotelRooms>
+
+    <hotelRoom>
+        <number>101</number>
+        <roomType>King</roomType>
+        <description>A lovely room with a garden patio.</description>
+        <pricePerNight>225.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>102</number>
+        <roomType>Single</roomType>
+        <description>A small room under the stairs.</description>
+        <pricePerNight>125.00</pricePerNight>
+    </hotelRoom>
+
+    <hotelRoom>
+        <number>201</number>
+        <roomType>Double</roomType>
+        <description>A standard double room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>202</number>
+        <roomType>Double</roomType>
+        <description>A standard double room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>203</number>
+        <roomType>Double</roomType>
+        <description>A standard double room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>204</number>
+        <roomType>Twin</roomType>
+        <description>A standard twin room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>205</number>
+        <roomType>Twin</roomType>
+        <description>A standard twin room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+
+    <hotelRoom>
+        <number>301</number>
+        <roomType>King</roomType>
+        <description>Superior room with king-size bed.</description>
+        <pricePerNight>225.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>302</number>
+        <roomType>King</roomType>
+        <description>Superior room with king-size bed.</description>
+        <pricePerNight>225.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>303</number>
+        <roomType>Triple Room</roomType>
+        <description>Two bedroom suite.</description>
+        <pricePerNight>325.00</pricePerNight>
+    </hotelRoom>
+
+</hotelRooms>

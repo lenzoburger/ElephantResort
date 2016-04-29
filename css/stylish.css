@@ -1,0 +1,859 @@
+/**
+ * Created by Lencho Burka 03/21/2015 style.css
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-muted {
+    background-color: inherit;
+    color: #777;
+}
+
+.text-primary {
+    background-color: inherit;
+    color: #fed136;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+#addRoomSection{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#current{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: inherit;
+    color: #fed136;
+}
+
+a {
+    background-color: inherit;
+    color: #fed136;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    background-color: inherit;
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    color: inherit;
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+    color: inherit;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #fea002;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1b1b1b;
+    background-color: #fed136;
+}
+
+
+.btn-gray{
+    margin: 10px;
+    border-color: #fea002;
+    background-color: #d9d9d9;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+.btn-m {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-color: #fea002;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1b1b1b;
+    background-color: #fed136;
+}
+
+.deleteBooking{
+    margin-top: 5px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+    border-color: #d9d9d9;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #bbb;
+    color: inherit;
+}
+
+#allRoomsTable{
+    overflow: hidden;
+}
+.UpdateDetails{
+    background-color: #bbb;
+    color: inherit;
+}
+
+.pendingButton{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-color: #fea002;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1b1b1b;
+    background-color: #5ea002;
+
+}
+
+.errorCheck{
+    color: #e74c3c;
+    background-color: inherit;
+}
+
+#pendingCart p{
+    padding: 10px 10px 15px 10px;
+}
+
+#pendingCart h3{
+    padding: 15px 10px 10px 10px;
+    background-color: #bbb;
+    color: inherit;
+    border-radius: 3px;
+}
+
+.money{
+    border-top: 2px solid #777;
+}
+
+#nameHolder{
+    text-align: left;
+    margin: 30px 0px 30px 30px;
+}
+
+#nameHolder label{
+    color: #1b1b1b;
+    background-color: inherit;
+}
+
+#name{
+    width: 300px;
+    color: #1b1b1b;
+    border: 1px solid #fea002;
+    background-color: #fed136;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #fed136;
+    color:inherit;
+    background-color: #fed135;
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.navbar-default {
+    background-color: transparent;
+    color:inherit;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+    background-color: inherit;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fed136;
+    background-color: inherit;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed135;
+    color:inherit;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    color: inherit;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;
+    color: inherit;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: inherit;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+    background-color: inherit;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+        color: inherit;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-color: inherit;
+    background-attachment: scroll;
+    background-image: url(../img/Main.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2.section-heading {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+h3.section-subheading {
+    margin-bottom: 25px;
+    text-transform: none;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+@media(min-width:768px) {
+
+}
+
+@media(min-width:767px) {
+
+}
+label {
+    font-size: large;
+    color: #fed136;
+    background-color: inherit;
+}
+
+.Categories {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.Categories:before {
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+    color: inherit;
+}
+
+.Categories >li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.Categories >li:before,
+.Categories >li:after {
+    content: " ";
+    display: table;
+}
+
+.Categories >li:after {
+    clear: both;
+}
+
+.Categories >li .Categories-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 30px 0 100px;
+    text-align: left;
+}
+
+.Categories >li .Categories-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.Categories >li .Categories-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.Categories >li .Categories-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.information img {
+    border: 7px solid #fed136;
+
+}
+
+.Categories >li .Categories-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.Categories >li.Categories-inverted>.Categories-panel {
+    float: right;
+    padding: 50px 20px 0 100px;
+    text-align: left;
+}
+
+
+
+.Categories >li.Categories-inverted>.Categories-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.Categories >li.Categories-inverted>.Categories-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.Categories >li:last-child {
+    margin-bottom: 0;
+}
+
+.Categories .Categories-heading h3 {
+    margin-top: 0;
+    color: #255625;
+    background-color: inherit;
+}
+
+.Categories .Categories-heading h3.subheading {
+    text-transform: none;
+}
+
+.Categories-body {
+    margin-right: 50px;
+}
+
+
+.Categories-inverted .Categories-body {
+    margin-left: 50px;
+}
+
+.hotelImagesContainer{
+    background-color: #f1f1f1;
+    color: inherit;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.Categories .Categories-body >ul {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+    .Categories:before {
+        left: 50%;
+    }
+
+    .Categories >li {
+        margin-bottom: 100px;
+        min-height: 200px;
+    }
+
+    .Categories >li .Categories-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .information{
+        padding: 0;
+        margin: 0 0 0 215px;
+    }
+
+    .hotelImagesContainer{
+        background-color: #f1f1f1;
+        color: inherit;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .Categories >li .Categories-image {
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: -100px;
+    }
+
+    .Categories >li .Categories-image h3 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .Categories >li.Categories-inverted>.Categories-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media(min-width:992px) {
+    .Categories >li {
+        min-height: 250px;
+    }
+
+    .Categories >li .Categories-panel {
+        padding: 0 20px 20px;
+    }
+
+    .Categories >li .Categories-image { /* Resize Yellow Circles */
+        width: 300px;
+        height: 300px;
+        margin-left: -150px;
+    }
+
+    .hotelImagesContainer{
+        background-color: #f1f1f1;
+        color: inherit;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .information{
+        padding: 0;
+        margin: 0 0 0 345px;
+    }
+    .information h4{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .Categories >li .Categories-image h3 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .Categories >li.Categories-inverted>.Categories-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .Categories >li {
+        min-height: 400px;
+    }
+
+    .Categories >li .Categories-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .Categories >li .Categories-image {
+        width: 400px;
+        height: 400px;
+        margin-left: -200px;
+    }
+
+    .information{
+        padding: 0;
+        margin: 0 0 0 420px;
+    }
+
+    .Categories >li .Categories-image h3 {
+        margin-top: 40px;
+    }
+
+    .Categories >li.Categories-inverted>.Categories-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+.ui-datepicker .ui-datepicker-title {
+    color: black;
+    background-color: inherit;
+}
+
+#bookARoom {
+    background-color: #222;
+    color: inherit;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.fill-page{
+    background-color: #222;
+    color: inherit;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: repeat;
+    height: 80vh;
+}
+
+
+.unbooked{
+    border: 1px solid #a6a6a6;
+    background-color: #dddddd;
+    color: inherit;
+    border-radius: 8px;
+    width: 302px;
+    display: inline-block;
+    margin: 10px 10px 0px 10px;
+}
+
+.roomInfoTable{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.roomInfoTable tr, th, td{
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+}
+
+.white{
+    color: white;
+    background-color: inherit;
+}
+
+#searchResults{
+    border: 7px solid #fea002;
+    background-color: #efefef;
+    color: inherit;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#pendingList table{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#pendingList{
+    overflow-x: scroll;
+}
+
+#pendingCart{
+    background-color: #fff;
+    color: inherit;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#errorList{
+    background-color: #fed136;
+    color: red;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.viewBookingsContainer{
+    margin-top: 10px;
+    text-align: center;
+}
+.admin-btn{
+    margin-top: 20px;
+}
+
+section#bookARoom .section-heading {
+    color: #fff;
+    background-color: inherit;
+}
+
+section#bookARoom .form-group {
+    margin-bottom: 25px;
+}
+
+section#bookARoom .form-group input,
+section#bookARoom .form-group textarea {
+    padding: 20px;
+}
+
+section#bookARoom .form-group input.form-control {
+    height: auto;
+}
+
+section#bookARoom .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#bookARoom .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#bookARoom::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+    background-color: inherit;
+}
+
+section#bookARoom:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+    background-color: inherit;
+}
+
+section#bookARoom::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+    background-color: inherit;
+}
+
+section#bookARoom:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+    background-color: inherit;
+}
+
+section#bookARoom .text-danger {
+    color: #e74c3c;
+    background-color: inherit;
+}
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #222;
+}
+
+footer span.copyright {
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+
+}
+.ourRNavBar{
+    margin-bottom: 1px;
+    background-color: #222;
+    color: inherit;
+}
