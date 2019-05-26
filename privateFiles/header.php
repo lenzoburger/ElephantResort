@@ -115,7 +115,7 @@ if($currentPage === "index.php"){
                 if ($currentPage === 'index.php') {
                     echo '<li class="home" id="current">Home';
                 } else {
-                    echo '<li><a class="home" href="../php/index.php">Home</a>';
+                    echo '<li><a class="home" href="../index.php">Home</a>';
                 }
 
                 if ($currentPage === 'ourRooms.php') {
