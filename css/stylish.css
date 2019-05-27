@@ -333,7 +333,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+#mainPageBackground {
     text-align: center;
     color: #fff;
     background-color: inherit;
@@ -345,36 +345,45 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+}
 
+html, body {
+    margin: 0;
+    height: 100%;
 }
 
 @media(min-width:768px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+    body .intro-text {
+        height: 100px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+          
+        margin: auto;
     }
 
-    header .intro-text .intro-lead-in {
+    body .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        text-shadow: 4px 2px #1b1b1b;
     }
 
-    header .intro-text .intro-heading {
+    body .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        text-shadow: 2px 2px #1b1b1b;
     }
-}
-
-section {
-    padding: 50px 0;
 }
 
 h2.section-heading {
