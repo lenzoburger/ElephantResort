@@ -1,0 +1,24 @@
+# buildspec.yml
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Download and install required packages
+      - composer self-update
+      - composer install
+
+  pre_build:
+    commands:
+      - echo Create required directories
+      - mkdir var
+      - chmod +x bin/console
+ 
+  build:
+    commands:
+      - echo run unit test
+      - phpunit
+
+  post_build:
+    commands:
+      - echo All done!
