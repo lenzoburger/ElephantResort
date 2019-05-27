@@ -2,15 +2,15 @@
 Luxury Hotel Website - Developed in PHP and hosted on AWS
 http://elephantresort.ap-southeast-2.elasticbeanstalk.com 
 
-### Dependencies
-1. **L**inux or Windows Subsystem for Linux (WSL)
+## Dependencies
+1. **L**inux or Windows Subsystem Linux (WSL)
 2. **A**pache2 Server   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://httpd.apache.org/download.cgi
 3. **M**ariaDB/MySQL           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://mariadb.org/download/
 4. **P**hp (v5+)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://www.php.net/downloads
 
-### Setup
+## Setup
 
-##### Install dependencies
+### Install dependencies
 1. _Install Ubuntu (WSL/Windows 10 only)_ :
    * If WSL (Windows Subsystem Linux) feature is not already enabled on your computer:
      * Open PowerShell as Administrator and run
@@ -52,7 +52,7 @@ http://elephantresort.ap-southeast-2.elasticbeanstalk.com
         ```bash
         sudo apt-get install php7.1 libapache2-mod-php7.1 php7.1-mcrypt php7.1-mysql php7.1-mbstring php7.1-gettext php7.1-xml php7.1-json php7.1-curl php7.1-zip
         ```
-##### Clone & Run
+### Clone & Run
 1. Configure Apache (WSL/Windows 10 only)
    * Edit Apache default virtual host configuration file: 
        ```bash 
@@ -69,7 +69,7 @@ http://elephantresort.ap-southeast-2.elasticbeanstalk.com
 4. Launch browser and Navigate to url: `http://localhost/ElephantResort`
 5. Launch preferred IDE/Editor in folder `/var/www/html/ElephantResort` to edit project
 
-### Tools
+## Tools
 1. phpMyAdmin            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://www.phpmyadmin.net/downloads/
 2. Composer              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://getcomposer.org/download/
 3. Git                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://git-scm.com/downloads
