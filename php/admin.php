@@ -13,7 +13,12 @@ $scriptList = array();
 
     <?php
     include("../privateFiles/header.php");
+    if (!loggedIn()) {
+        header("Location: login.php");
+        exit();
+    }
     ?>
+
 
     <!-- Current bookings Section -->
     <section id="bookARoom">

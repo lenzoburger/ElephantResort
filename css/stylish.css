@@ -888,7 +888,7 @@ footer ul.quicklinks {
 }
 
 #aboutUsContainer,
-#contactUsContainer {
+#contactUsContainer, #LoginContainer {
   color: #fff;
 }
 
@@ -916,4 +916,9 @@ footer ul.quicklinks {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 12pt;
+}
+
+.centre{
+  width: 50%;
+  margin: auto;  
 }
