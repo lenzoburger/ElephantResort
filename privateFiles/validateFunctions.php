@@ -45,6 +45,17 @@ function isValidDescript($str) {
     return preg_match($pattern, $str);
 }
 
+function isValidUserLogin($usr, $pwd){
+    $username = "sample";
+    $password = "password123";
+
+    if ($usr == $username && $pwd == $password) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
 
 /**
  * Check to see if a string looks like an email.

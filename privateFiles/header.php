@@ -34,6 +34,16 @@ function rememberFormInput($elementId){
     }
 }
 
+function loggedIn(){
+    if (isset($_SESSION["username"])) {
+        $user = $_SESSION["username"];
+        if ($_SESSION["loggedIn"] === $user) {
+           return true;
+        }
+    }
+    return false;
+}
+
 ?>
 
 <html lang="en">
@@ -129,6 +139,16 @@ if($currentPage === "index.php"){
                 } else {
                     echo '<li><a class="page-scroll" href="../php/bookARoom.php">Book A Room</a>';
                 }
+                if (loggedIn()) {
+                        echo '<li><a class="page-scroll" href="../php/logout.php">Logout</a>';                                          
+                }else {
+                    if ($currentPage === 'login.php') {
+                        echo '<li class="page-scroll" id="current">Login';
+                    } else {
+                        echo '<li><a class="page-scroll" href="../php/login.php">Login</a>';
+                    }                
+                }
+                
                 ?>
             </ul>
         </div>
