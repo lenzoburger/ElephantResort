@@ -5,7 +5,7 @@
  * Date: 9/24/15
  * Time: 12:27 PM
  *
- * public page where user can find available rooms and book them.
+ * public page where user can view about us details.
  */
 $scriptList = array();
 ?>
@@ -22,6 +22,7 @@ include("../privateFiles/header.php");
             <h2 class="section-heading">About us</h2>
         </div>
         <div class="row paragraphContainer">
+            <div class="col-xs-12">
             <p>Situated near Red Elephant National Park just 300 meters from the
                 magnificent waffle Rocks , the beachfront Elephant Resort
                 offers comfortable, environmentally friendly accommodation
@@ -40,6 +41,7 @@ include("../privateFiles/header.php");
             <p>Elephantidae is about 45 kilometers from the hotel. Free
                 shuttle into town is provided.
             </p>
+            </div>            
         </div>
     </div>
 </body>

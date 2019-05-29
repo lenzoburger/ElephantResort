@@ -14,7 +14,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             <div class="col-sm-6">
                 <?php
         if ($currentPage === 'contactUs.php') {
-                    echo '<a id="current">Contact us</a>';
+                    echo '<a class = "currentFooterLink">Contact us</a>';
                 } else {
                     echo '<a href="../php/contactUs.php" id="contactUsLInk">Contact us</a>';
                 }
@@ -23,7 +23,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             <div class="col-sm-6">
                 <?php
         if ($currentPage === 'aboutUs.php') {
-                    echo '<a id="current">About us</a>';
+                    echo '<a class = "currentFooterLink">About us</a>';
                 } else {
                     echo '<a href="../php/aboutUs.php" id="aboutUsLInk">About us</a>';
                 }
