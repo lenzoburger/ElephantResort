@@ -5,11 +5,32 @@
  * Date: 9/24/15
  * Time: 12:27 PM
  */
+$currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 <footer>
-    <p>
-        The Elephant Resort is not a real hotel. No products/services are provided, and no money will be accepted.
-    </p>
+    <div class="container linksContainer">
+        <div class="row">
+              
+            <div class="col-sm-6">
+                <?php
+        if ($currentPage === 'contactUs.php') {
+                    echo '<a id="current">Contact us</a>';
+                } else {
+                    echo '<a href="../php/contactUs.php" id="contactUsLInk">Contact us</a>';
+                }
+            ?>     
+            </div>
+            <div class="col-sm-6">
+                <?php
+        if ($currentPage === 'aboutUs.php') {
+                    echo '<a id="current">About us</a>';
+                } else {
+                    echo '<a href="../php/aboutUs.php" id="aboutUsLInk">About us</a>';
+                }
+            ?>   
+            </div>
+        </div>
+    </div>
 </footer>
 <!-- jQuery -->
 <script src="../js/jquery.min.js"></script>
@@ -24,12 +45,12 @@
 
 <!-- Bootstrap datepicker -->
 <script>
-    $( "#checkIn" ).datepicker({
+    $("#checkIn").datepicker({
         changeMonth: true,
         changeYear: true,
         dateFormat: 'dd-mm-yy'
     });
-    $( "#checkOut" ).datepicker({
+    $("#checkOut").datepicker({
         changeMonth: true,
         changeYear: true,
         dateFormat: 'dd-mm-yy'

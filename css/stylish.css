@@ -678,21 +678,15 @@ label {
     background-color: inherit;
 }
 
-#bookARoom {
-    background-color: #222;
-    color: inherit;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: repeat;
-}
-
 .fill-page{
     background-color: #222;
     color: inherit;
     background-image: url(../img/map-image.png);
     background-position: center;
-    background-repeat: repeat;
-    height: 80vh;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 
@@ -834,7 +828,7 @@ footer {
     position:fixed;
     left:0px;
     bottom:0px;
-    height:40px;
+    height:26px;
     width:100%;
     text-align: center;
     color: #ffffff;
@@ -866,3 +860,43 @@ footer ul.quicklinks {
     background-color: #222;
     color: inherit;
 }
+
+#aboutUsLInk, #contactUsLInk { 
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background-color: inherit;
+    font-size: 9pt
+}
+
+#aboutUsLInk:active, #aboutUsLInk:hover, #contactUsLInk:active, #contactUsLInk:hover {
+    color: #fed136;
+    background-color: inherit;
+}
+
+.linksContainer {
+    margin-top: 2px;
+}
+
+#aboutUsContainer {
+    color: #fff;
+}
+
+.paragraphContainer p {
+    width: 60%;
+    margin: 20px auto;
+    padding: 0;
+    letter-spacing: .2px;
+    font-size: 16px;
+}
+
+
+/* #aboutUsLInk {
+    float: left;
+}
+
+#contactUsLInk {
+    float: right;
+} */
