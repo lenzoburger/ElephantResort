@@ -1,12 +1,11 @@
 # Elephant Resort
-Luxury Hotel Website - Developed in PHP and hosted on AWS
-http://elephantresort.ap-southeast-2.elasticbeanstalk.com 
+[Luxury Hotel Website](http://elephantresort.ap-southeast-2.elasticbeanstalk.com) - Developed in PHP and hosted on AWS 
 
 ## Dependencies
 1. **L**inux or Windows Subsystem Linux (WSL)
-2. **A**pache2 Server   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://httpd.apache.org/download.cgi
-3. **M**ariaDB/MySQL           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://mariadb.org/download/
-4. **P**hp (v5+)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://www.php.net/downloads
+2. [**A**pache2 Server](https://httpd.apache.org/download.cgi)
+3. [**M**ariaDB/MySQL](https://mariadb.org/download)
+4. [**P**hp (v5+)](https://www.php.net/downloads)
 
 ## Setup
 
@@ -70,15 +69,15 @@ http://elephantresort.ap-southeast-2.elasticbeanstalk.com
 5. Launch preferred IDE/Editor in folder `/var/www/html/ElephantResort` to edit project
 
 ## Tools
-1. phpMyAdmin            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://www.phpmyadmin.net/downloads/
-2. Composer              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://getcomposer.org/download/
-3. Git                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> https://git-scm.com/downloads
-4. VSCode + _Extensions_ &nbsp;-> https://code.visualstudio.com/download
-   * _PHP Intellisense - Crane (Hvy Industries)_
-   * _Auto Rename Tag (Jun Han)_
-   * _Debugger for chrome (Microsoft)_
-   * _Markdown All in One_ (Yu Zhang)
-   * _Markdown Preview Enhanced (Yiyi Wang)_
-   * _Meterial Icon Theme (Philipp Kief)_
-   * _Path Intellisense (Christian Kohler)_
-   * _Prettier - Code Formatter (Esben Peterson)_
+1. [phpMyAdmin](https://www.phpmyadmin.net/downloads)
+2. [Composer](https://getcomposer.org/download)
+3. [Git](https://git-scm.com/downloads)
+4. [Visual Studio Code](https://code.visualstudio.com/download) & **Extensions:** 
+   * [_PHP Intellisense - Crane_](https://marketplace.visualstudio.com/items?itemName=HvyIndustries.crane)
+   * [_Auto Rename Tag_](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+   * [_Debugger for chrome_](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+   * [_Markdown All in One_](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+   * [_Markdown Preview Enhanced_](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+   * [_Meterial Icon Theme_](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+   * [_Path Intellisense_](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+   * [_Prettier - Code Formatte_](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
