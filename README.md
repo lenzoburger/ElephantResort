@@ -27,7 +27,7 @@ http://elephantresort.ap-southeast-2.elasticbeanstalk.com
    * Update local package index; `sudo apt-get update`
    * Install Apache; `sudo apt-get install apache2`
 
-3. _Install MariaDB/MySQL_
+3. _Install MariaDB/MySQL_ (Optional)
    * Add repo with the latest MariaDB packages
         ```bash
         sudo apt-get install software-properties-common
@@ -58,7 +58,8 @@ http://elephantresort.ap-southeast-2.elasticbeanstalk.com
        ```bash 
        sudo nano /etc/apache2/sites-enabled/000-default.conf
        ```
-   * Ensure _ServerName_ is set to _localhost_: `ServerName localhost` then `Ctrl+o` `Enter` `Ctrl+x` to save and exit
+   * Update `DocumentRoot` to `/var/www/html/ElephantResort` 
+   * Update `ServerName` to `localhost` then `Ctrl+o` `Enter` `Ctrl+x` to save and exit
    * Enable Apache modules that are necessary and restart/start server:
         ```bash
         sudo a2enmod rewrite
